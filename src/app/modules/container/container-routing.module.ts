@@ -8,6 +8,10 @@ const routes: Routes = [
     {
       path: '', component : TestComponent
     },
+    {
+      path: 'ranking',
+      loadChildren: () => import('@ranking/ranking.module').then(module => module.RankingModule)
+    }
   ]},
 ];
 

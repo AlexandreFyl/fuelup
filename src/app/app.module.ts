@@ -10,6 +10,7 @@ import { CoreModule } from './modules/core/core.module';
     AppComponent,
     LandpageComponent
   ],
+
   imports: [
     CoreModule,
     AppRoutingModule

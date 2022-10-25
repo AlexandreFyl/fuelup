@@ -8,6 +8,7 @@
       "@shared/*": ["app/modules/shared/*"],
       "@core/*": ["app/modules/core/*"],
       "@container/*": ["app/modules/container/*"],
+      "@ranking/*": ["app/modules/ranking/*"],
     },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
